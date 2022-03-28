@@ -13,9 +13,13 @@
   "init": false,
   "ports": {
     "8000/tcp": null
+    "9000/tcp": null
+    "9443/tcp": "9443"
   },
   "ports_description": {
     "8000/tcp": "Edge Agent Api (Enable when managing remote edge agents)"
+    "9000/tcp": "Port for using blank HTTP (unencrypted) "
+    "9443/tcp": "9443"
   },
   "hassio_api": true,
   "docker_api": true,

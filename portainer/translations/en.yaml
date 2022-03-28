@@ -11,3 +11,5 @@ configuration:
       agent as an Environment variable.
 network:
   8000/tcp: Edge Agent Api (Enable when managing remote edge agents)
+  9000/tcp: Port for using unencrypted blank HTTP
+  9443/tcp: Port for using SSL
