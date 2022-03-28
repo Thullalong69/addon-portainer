@@ -17,9 +17,6 @@
 [![Discord][discord-shield]][discord]
 [![Community Forum][forum-shield]][forum]
 
-[![Sponsor Frenck via GitHub Sponsors][github-sponsors-shield]][github-sponsors]
-
-[![Support Frenck on Patreon][patreon-shield]][patreon]
 
 Manage your Docker environment with ease.
 
@@ -36,30 +33,7 @@ volumes.
 
 [:books: Read the full add-on documentation][docs]
 
-
-## DISCONTINUED
-
-This add-on is no longer available.
-
-It has been used quite a lot for unsupported porposes, causing many issues,
-support questions and other problems.
-
-If you run Home Assistant, please be aware that running additional containers
-is not a supported use-case and will trigger your system to be flagged
-as unsupported as well.
-
-## WARNING 1
-
-The Portainer add-on is really powerful and gives you access to virtually
-your whole system. While this add-on is created and maintained with care and
-with security in mind, in the wrong or inexperienced hands,
-it could damage your system.
-
-## WARNING 2
-
-The Portainer add-on is meant for debugging Home Assistant and its containers.
-It has not meant or designed for managing or deploying your custom software
-or third-party containers.
+## Forked andUpdated to Portainer Version 2.11.1
 
 **Home Assistant DOES NOT SUPPORT running third party containers**
 on Home Assistant OS or Supervised installation types. Ignoring this, will
