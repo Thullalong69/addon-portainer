@@ -33,7 +33,7 @@ volumes.
 
 [:books: Read the full add-on documentation][docs]
 
-## Forked andUpdated to Portainer Version 2.11.1
+## Forked and Updated to Portainer Version 2.11.1
 
 **Home Assistant DOES NOT SUPPORT running third party containers**
 on Home Assistant OS or Supervised installation types. Ignoring this, will
