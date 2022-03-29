@@ -1,25 +1,21 @@
 {
-  "name": "Portainer",
+  "name": "AVS-on-Raspberry",
   "version": "dev",
-  "slug": "portainer",
-  "description": "Manage your Docker environment with ease",
-  "url": "https://github.com/hassio-addons/addon-portainer",
+  "slug": "avsrasp",
+  "description": "make your Raspberry to Alexa Device",
+  "url": "https://github.com/Thullalong/addon-avsrasp",
   "advanced": true,
   "ingress": true,
   "ingress_stream": true,
   "startup": "services",
-  "panel_icon": "mdi:docker",
+  "panel_icon": "mdi:speaker-wireless",
   "arch": ["aarch64", "amd64", "armhf", "armv7"],
   "init": false,
   "ports": {
     "8000/tcp": null
-    "9000/tcp": null
-    "9443/tcp": "9443"
   },
   "ports_description": {
     "8000/tcp": "Edge Agent Api (Enable when managing remote edge agents)"
-    "9000/tcp": "Port for using blank HTTP (unencrypted) "
-    "9443/tcp": "9443"
   },
   "hassio_api": true,
   "docker_api": true,
