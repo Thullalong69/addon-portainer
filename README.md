@@ -17,7 +17,6 @@
 [![Discord][discord-shield]][discord]
 [![Community Forum][forum-shield]][forum]
 
-
 Manage your Docker environment with ease.
 
 ![The Portainer Hass.io add-on](images/screenshot.png)
